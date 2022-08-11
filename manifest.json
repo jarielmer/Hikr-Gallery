@@ -1,0 +1,16 @@
+{
+  "name": "Hikr Gallery",
+  "description": "Lightbox gallery for Hikr.org",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "./background.js"
+  },
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://www.hikr.org/tour/*"
+  ]
+}
