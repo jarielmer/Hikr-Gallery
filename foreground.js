@@ -1,4 +1,3 @@
-console.log("from foreground")
 pageDiv = document.getElementById("page")
 
 if (!pageDiv.dataset.has_gallery){
